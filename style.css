@@ -1,0 +1,19 @@
+/* nejsme vcerejsi, pouzivame moderni box model */
+html { box-sizing: border-box; }
+*, :after, :before { box-sizing: inherit; }
+
+
+/*
+Písmo pro běžný text:
+font-family: 'Open Sans', sans-serif;
+font-size: 15px+
+line-height: 1.5;
+
+Písmo pro menší nadpisy (kromě velkého h1):
+font-family: 'Rubik', sans-serif;
+font-weight: 700;
+*/
+
+/* -------------------------------------------------- */
+
+
