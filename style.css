@@ -16,4 +16,198 @@ font-weight: 700;
 
 /* -------------------------------------------------- */
 
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.hlavicka,
+.sekce {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.sekce-bila {
+  padding-bottom: 20px;
+}
+
+.wrap{
+  max-width: 1140px;
+  margin: auto;
+}
+
+h2 {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  margin-top: 0;
+}
+
+.uvod {
+  background-color: #f5f5f5;
+}
+
+.sekce-cerna {
+  background-color: #252525;
+}
+
+
+/*hlavicka*/
+
+.logo {
+  width: 120px;
+}
+
+.menu {
+  text-transform: uppercase;
+  list-style: none;
+  display: flex;
+  margin: 0;
+  margin-right: 20px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #959595;
+  font-size: 13px;
+  padding: 0 10px;
+}
+
+.tlacitko {
+  font-size: 13px;
+  font-weight: 600;
+  border-radius: 5px;
+  padding: 8px 15px;
+  text-decoration: none;
+}
+
+.tlacitko-primarni {
+  background-color: #3498db;
+  color: white;
+}
+
+.tlacitko-sekundarni {
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  color: black;
+}
+
+.hlavicka {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hlavicka-vpravo {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/*banner*/
+
+.banner {
+  min-height: 600px;
+}
+
+.banner-text {
+  max-width: 420px;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+.upoutavka {
+  font-size: 18px;
+  color: #a5a5a5;
+  margin-bottom: 40px;
+}
+
+.tlacitko-velke {
+  font-size: 16px;
+  padding: 15px 20px;
+}
+
+.minitext {
+  font-size: 13px;
+  margin-top: 40px;
+}
+
+.banner {
+  position: relative;
+}
+
+.banner-foto {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+img {
+  display: block;
+}
+
+/*vlastnosti*/
+
+.vlastnosti a {
+  font-size: 13px;
+}
+
+.vlastnosti {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+}
+
+.vlastnosti img {
+  width: 50px;
+  height: 50px;
+  margin-right: 30px;
+}
+
+.vlastnost {
+  padding: 30px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  flex-basis: 555px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-content: flex-start;
+}
+
+/*paticka*/
+
+.copyright {
+  font-size: 13px;
+  color: #959595;
+}
+
+.paticka {
+  display: flex;
+  justify-content: space-between;
+}
+
+.paticka-menu {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  margin: 0;
+}
+
+.paticka-menu a {
+  font-size: 13px;
+  font-family: 'Rubik', sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 0 10px;
+  color: white;
+}
 
